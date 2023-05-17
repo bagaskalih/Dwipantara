@@ -1,0 +1,96 @@
+body {
+  background: #1d1e2e !important;
+  font-family: "Jacques Francois" !important;
+  font-size: 14px;
+  color: #ffffffb2;
+  margin: 0 auto;
+}
+
+.navbar .logo .logo1 {
+  color: #ffffffb2;
+}
+
+.navbar .logo .logo2 {
+  color: #ffffffb2;
+}
+
+.navbar .menu a {
+  color: #ffffffb2;
+}
+
+form {
+  color: #ffffff;
+  margin: 0 auto;
+  width: 40vw;
+  padding: 1em;
+  border-radius: 1em;
+  margin-top: 245px;
+  background: #473359;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.message {
+  color: red;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group label {
+  width: 29vw;
+  font-size: 20px;
+}
+
+.form-group input {
+  width: 30vw;
+  font-family: "poppins", normal;
+  padding: 1em;
+  margin-top: 9px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #d9d9d9;
+  font-size: 15px;
+  color: #929292;
+}
+
+.btn {
+  width: 100px;
+  border-radius: 50px !important;
+  margin-top: 43px;
+  margin-right: 5em;
+  float: right;
+}
+
+.form p {
+  margin-top: 165px;
+  display: flex;
+  flex-direction: row;
+  color: #929292;
+}
+
+.form p:before,
+.form p:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.form p:before {
+  margin-right: 10px;
+}
+.form p:after {
+  margin-left: 10px;
+}
+
+.footer {
+  margin-top: 200px;
+}

@@ -1,0 +1,134 @@
+body {
+    background: #1d1e2e !important;
+    font-family: "Jacques Francois" !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero {
+    background: url(../img/reviewJogja.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+
+    background-position: center;
+    background-size: cover;
+
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.hero h1 {
+    color: white;
+    border: 1px solid white;
+    padding: 30px;
+
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: 0.1em;
+}
+
+.input-review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-review-container p {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: white;
+
+    letter-spacing: 0.1em;
+}
+
+.input-review {
+    font-family: "poppins" !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+    width: 100%;
+
+    max-width: 1000px;
+
+    border: 2px solid #ffffff80;
+    background: #dadada;
+
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.input-review input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 30px;
+    color: #00000080;
+}
+
+.input-review button {
+    background: transparent;
+    border: 0;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.input-review img {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+}
+
+.container-list-review {
+    font-family: "Poppins" !important;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comment-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-wrapper img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5em;
+}
+
+.container-review {
+    padding: 1em 2em;
+    color: #181818;
+    background: #dadada;
+    margin-bottom: 5em;
+    margin-left: 3em;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.container-review h1 {
+    font-size: 20px;
+    color: #298ea4;
+}
+
+.container-review p {
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 60vw;
+}
