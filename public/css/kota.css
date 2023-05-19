@@ -55,6 +55,7 @@
     justify-content: space-around;
     background: #242434;
     color: #ffffffb2;
+    border-bottom: 1px solid white;
 }
 
 .teks-sejarah {
@@ -80,6 +81,7 @@
     background: #423151;
     color: #ffffffb2;
     padding: 20px;
+    border-bottom: 1px solid white;
 }
 
 .container-budaya h1 {
@@ -162,6 +164,7 @@
     background: #242434;
     padding: 20px;
     color: #ffffffb2;
+    border-bottom: 1px solid white;
 }
 
 .container-adat > h1 {
@@ -203,6 +206,7 @@
     background: #423151;
     padding: 20px;
     color: #ffffffb2;
+    border-bottom: 1px solid white;
 }
 
 .container-wisata > h1 {
@@ -225,12 +229,28 @@
 
     border-radius: 15px;
     color: white;
-    border: 1px solid #aeaeae;
+    border: 5px solid #aeaeae;
     margin-bottom: 15rem;
     margin-top: 5rem;
     padding: 20px;
 
     width: 60vw;
+}
+
+.kotak-ulasan a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+    padding: 20px;
+    flex-grow: 1;
+    max-width: 30rem;
+    text-align: center;
+}
+
+.kotak-ulasan a:hover {
+    color: #ffffffb2;
+    text-decoration: none;
 }
 
 .container-ulasan h3 {

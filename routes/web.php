@@ -34,6 +34,10 @@ Route::get('/jogja', function () {
     return view('jogja');
 });
 
+Route::get('/semarang', function () {
+    return view('semarang');
+});
+
 Route::get('review/jogja', function () {
     return view('review-jogja', [
         "komentar" => comments::all()

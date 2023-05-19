@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/kota.css" />
+    <link rel="stylesheet" href="css/semarang.css" />
     <link rel="stylesheet" href="css/footerpenilaian.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,7 +24,7 @@
       <div class="container-hero">
         <div class="herobox">
           <div class="hero-heading">
-            <h1>YOGYAKARTA</h1>
+            <h1>SEMARANG</h1>
           </div>
           <p class="hero-desc">Jawa adalah sebuah pulau di Indonesia yang terletak di kepulauan Sunda Besar dan merupakan pulau terluas ke-13 di dunia. Jumlah penduduk di Pulau Jawa sekitar 150 juta. Pulau Jawa dihuni oleh 60% total populasi Indonesia.</p>
         </div>
@@ -32,7 +33,7 @@
     <div class="container-sejarah">
       <div class="teks-sejarah">
         <h1>Sejarah</h1>
-        <p>Berdirinya Kota Yogyakarta berawal dari adanya Perjanjian Gianti pada Tanggal 13 Februari 1755 yang ditandatangani Kompeni Belanda di bawah tanda tangan Gubernur Nicholas Hartingh atas nama Gubernur Jendral Jacob Mossel. Isi Perjanjian Gianti : Negara Mataram dibagi dua : Setengah masih menjadi Hak Kerajaan Surakarta, setengah lagi menjadi Hak Pangeran Mangkubumi. Dalam perjanjian itu pula Pengeran Mangkubumi diakui menjadi Raja atas setengah daerah Pedalaman Kerajaan Jawa dengan Gelar Sultan Hamengku Buwono Senopati Ing Alega Abdul Rachman Sayidin Panatagama Khalifatullah.</p>
+        <p>Sejarah Kota Semarang dimulai pada abad ke-6, mulanya Semarang merupakan bagian kawasan Kerajaan Mataram Kuno dengan nama Pragota (kini menjadi Bergota). Dahulu daerah ini merupakan pelabuhan dengan gugusan pulau kecil di depannya akibat pengendapan, gugusan pulau kecil itu akhirnya meluas sehingga membuat sebuah kawasan baru yang kini disebut sebagai kota bawah.</p>
       </div>
       <div class="foto-sejarah">
         <img src="img/sejarah.png" alt="" />
@@ -42,8 +43,8 @@
       <h1>Budaya</h1>
       <div class="container-batik">
         <div class="teks-batik">
-          <h1>Batik</h1>
-          <p>Tanggal 2 Oktober ditetapkan sebagai Hari Batik Nasional. Ini membuktikan bahwa batik benar-benar menjadi ciri khas Indonesia, khususnya di Jogja. Batik sudah menjadi kebudayaan yang diturunkan dari nenek moyang. Batik menjadi karya seni yang tidak sekedar goresan canting yang tampak cantik di mata, tapi juga kaya akan makna.</p>
+          <h1>Siraman</h1>
+          <p> Siraman merupakan sebuah adat yang dilakukan pada saat pernikahan. Calon pengantin akan disirami dengan air yang bersumber dari tujuh sumber mata air dan diberi taburan bunga-bunga khusus. Syarat jumlah orang-orang yang bertugas menyiramkannya harus berjumlah ganjil, misalnya tujuh atau sembilan orang.</p>
         </div>
         <div class="foto-batik">
           <img src="img/batik.png" alt="" />
@@ -54,14 +55,14 @@
           <img src="img/sekaten.png" alt="" />
         </div>
         <div class="teks-sekaten">
-          <h1>Sekaten</h1>
-          <p>Sekatenan bisa dikatakan salah satu dari adat budaya Jogja yang sudah dilakukan selama bertahun-tahun. Mungkin sejaka Islam masuk ke tanah Jawa karena Sekatenan adalah acara tahunan pesta rakyat yang dilakukan di Keraton Ngayogyakarta Hadiningrat untuk memperingati hari kelahiran Nabi Muhammad tanggal 5 Rabiul Awal Kalender Islam.</p>
+          <h1>Popokan</h1>
+          <p>Popokan adalah tradisi Popokan yang diadakan setiap bulan Agustus, tepatnya pada Jumat Kliwon. Tradisi ini dilakukan oleh masyarakat lokal dengan saling melempar lumpur, kegiatan ini tidak disertai dengan emosi yang negatif, melainkan dilaksanakan dengan riang dan sukacita. Tradisi ini merupakan simbol penolak bala dan wujud rasa syukur warga terhadap melimpahnya hasil panen. Popokan berarti pembersihan diri dan penghapusan kejahatan tanpa perlu melakukan kekerasan.</p>
         </div>
       </div>
       <div class="container-ramayana">
         <div class="teks-ramayana">
-          <h1>Sendratari Ramayana</h1>
-          <p>Setiap wisatawan asing yang datang ke Jogja, hampir pasti meluangkan waktunya untuk melihat Sendratari Ramayana, sebuah seni tari dan drama yang digabungkan menjadi satu pertuntjukan yang apik tanpa dialog dengan certia Ramayana. Secara singkat, ceritanya mengenai Sri Rama yang berusaha keras untuk menyelematkan istri kesayangannya, Dewi Shinta yang telah diculik oleh Rahwana. Begitu terkenalnya budaya asli Jogja ini, Sendratari Ramayana juga dimainkan di beberapa negara tetangga seperti Malaysia, Laos, Kamboja, Singapura, Thailand hingga India dan Sri Lanka.</p>
+          <h1>Dugderan</h1>
+          <p>Dugderan di bulan Ramadan merupakan bulan yang ditunggu-tunggu oleh umat Islam di seluruh dunia, Setiap tempat memiliki tradisi atau kegiatan tersendiri dalam menyambut bulan tersebut. Salah satunya adalah tradisi Dugderan yang diadakan di Semarang. Festival rakyat ini biasanya diadakan di jalan-jalan tertentu dan dimeriahkan dengan pawai, beduk, dan kembang api. Salah satu hal yang menjadi ciri khas dari Dugderan adalah Warak Ngendhog, yaitu makhluk rekaan yang menjadi penyatuan kebudayaan dari berbagai etnis di Semarang. Tubuhnya berbentuk unta yang berasal dari Arab, kepala naga dari kebudayaan Cina, dan empat kaki kambing dari budaya etnis Jawa. Warak Ngendhog menjadi pusat perhatian utama dan diarak selama festival berlangsung.</p>
         </div>
         <div class="foto-ramayana">
           <img src="img/ramayana.png" alt="" />

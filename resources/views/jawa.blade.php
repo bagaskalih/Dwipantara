@@ -34,7 +34,7 @@
       <div class="card card-kota" style="width: 180px; background: #1e1e2e; border-left: 1px solid #ffffffbf">
         <img src="{{ URL::asset('img/jogja.png'); }}" class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">JOGJAKARTA</h5>
+          <h5 class="card-title">YOGYAKARTA</h5>
           <p class="card-text">Yogyakarta adalah ibu kota sekaligus pusat pemerintahan dan perekonomian dari Daerah Istimewa Yogyakarta, Indonesia. Kota ini adalah kota besar yang mempertahankan konsep tradisional dan budaya Jawa.</p>
           <a href="../jogja" class="btn text-light border border-white">LIHAT</a>
         </div>
