@@ -149,7 +149,7 @@
     </div>
     <div class="container-ulasan">
       <div class="kotak-ulasan">
-        <a href="">Klik Untuk Melihat dan Memberi Ulasan Tentang Kota Ini</a>
+        <a href="review/jogja">Klik Untuk Melihat dan Memberi Ulasan Tentang Kota Ini</a>
         <img src="" alt="lambang chat" />
       </div>
     </div>

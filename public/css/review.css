@@ -7,14 +7,14 @@ body {
 }
 
 .hero {
-    background: url(../img/reviewJogja.png);
     display: flex;
     align-items: center;
     justify-content: center;
     height: 60vh;
 
-    background-position: center;
-    background-size: cover;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 
     margin-top: 2em;
     margin-bottom: 4em;

@@ -24,7 +24,7 @@
           <input type="text" class="form-control" name="nama" placeholder="Masukkan nama Anda" />
         </div>
         <div class="form-group">
-          <label for="email`">Email:</label>
+          <label for="email">Email:</label>
           <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Masukkan alamat email Anda" />
         </div>
         <div class="form-group">

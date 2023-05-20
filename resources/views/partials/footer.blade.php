@@ -17,7 +17,7 @@
           <li><a href="mailto:budayadwipantara@gmail.com?subject = Feedback&body = Message">budayadwipantara@gmail.com</a></li>
           <li><a href="https://api.whatsapp.com/send?phone=6287870301623" target="_blank">087870301623</a></li>
           <li>
-            <a href="https://www.instagram.com/membantuipk4/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/budaya_dwipantara/" target="_blank"><i class="fab fa-instagram"></i></a>
           </li>
         </ul>
       </div>

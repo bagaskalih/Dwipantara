@@ -46,7 +46,7 @@
         <div class="card-body">
           <h5 class="card-title">JAKARTA</h5>
           <p class="card-text">Jakarta, atau secara resmi bernama Daerah Khusus Ibukota Jakarta adalah ibu kota negara dan kota terbesar di Indonesia. Menurut sistem pembagian administratif Indonesia, Jakarta merupakan provinsi dengan status daerah khusus. Sementara menurut pengertian secara umum, Jakarta merupakan kota metropolitan</p>
-          <a href="#" class="btn text-light border border-white">LIHAT</a>
+          <a href="jakarta" class="btn text-light border border-white">LIHAT</a>
         </div>
       </div>
       <div class="card card-kota" style="width: 180px; background: #1e1e2e; border-left: 1px solid #ffffffbf">

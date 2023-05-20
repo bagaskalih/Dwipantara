@@ -17,8 +17,8 @@
   </head>
   <body>
     @include('partials.navbar')
-    <div class="hero" style="background: url(../img/reviewJogja.png)">
-      <h1>ULASAN YOGYAKARTA</h1>
+    <div class="hero" style="background: url(../img/heroSemarang.png)">
+      <h1>ULASAN SEMARANG</h1>
     </div>
     <div class="input-review-container">
       <p>ULASAN ANDA</p>

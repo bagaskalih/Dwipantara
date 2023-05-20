@@ -36,7 +36,7 @@
         <p>Sejarah Kota Semarang dimulai pada abad ke-6, mulanya Semarang merupakan bagian kawasan Kerajaan Mataram Kuno dengan nama Pragota (kini menjadi Bergota). Dahulu daerah ini merupakan pelabuhan dengan gugusan pulau kecil di depannya akibat pengendapan, gugusan pulau kecil itu akhirnya meluas sehingga membuat sebuah kawasan baru yang kini disebut sebagai kota bawah.</p>
       </div>
       <div class="foto-sejarah">
-        <img src="img/sejarah.png" alt="" />
+        <img src="img/sejarahSemarang.png" alt="" />
       </div>
     </div>
     <div class="container-budaya">
@@ -47,12 +47,12 @@
           <p> Siraman merupakan sebuah adat yang dilakukan pada saat pernikahan. Calon pengantin akan disirami dengan air yang bersumber dari tujuh sumber mata air dan diberi taburan bunga-bunga khusus. Syarat jumlah orang-orang yang bertugas menyiramkannya harus berjumlah ganjil, misalnya tujuh atau sembilan orang.</p>
         </div>
         <div class="foto-batik">
-          <img src="img/batik.png" alt="" />
+          <img src="img/siraman.png" alt="" />
         </div>
       </div>
       <div class="container-sekaten">
         <div class="foto-sekaten">
-          <img src="img/sekaten.png" alt="" />
+          <img src="img/popokan.png" alt="" />
         </div>
         <div class="teks-sekaten">
           <h1>Popokan</h1>
@@ -65,7 +65,7 @@
           <p>Dugderan di bulan Ramadan merupakan bulan yang ditunggu-tunggu oleh umat Islam di seluruh dunia, Setiap tempat memiliki tradisi atau kegiatan tersendiri dalam menyambut bulan tersebut. Salah satunya adalah tradisi Dugderan yang diadakan di Semarang. Festival rakyat ini biasanya diadakan di jalan-jalan tertentu dan dimeriahkan dengan pawai, beduk, dan kembang api. Salah satu hal yang menjadi ciri khas dari Dugderan adalah Warak Ngendhog, yaitu makhluk rekaan yang menjadi penyatuan kebudayaan dari berbagai etnis di Semarang. Tubuhnya berbentuk unta yang berasal dari Arab, kepala naga dari kebudayaan Cina, dan empat kaki kambing dari budaya etnis Jawa. Warak Ngendhog menjadi pusat perhatian utama dan diarak selama festival berlangsung.</p>
         </div>
         <div class="foto-ramayana">
-          <img src="img/ramayana.png" alt="" />
+          <img src="img/dugderan.png" alt="" />
         </div>
       </div>
     </div>
@@ -88,8 +88,8 @@
           <p>Dan Surjan yang paling populer adalah Surjan Lurik, yang mana Surjan Lurik menjadi pakaian yang dikenakan oleh Sunan Kalijaga yang menggambarkan kesederhanaan. Dan untuk pelengkapnya, Surjan dipadukan dengan bawahan kain jarik dan penutup kepala berupa blangkon.</p>
         </div>
         <div class="foto-rumah">
-          <img src="img/pakaian.png" alt="" />
-          <h1>Surjan</h1>
+          <img src="img/gagrak.png" alt="" />
+          <h1>Gagrak</h1>
         </div>
       </div>
 
@@ -107,11 +107,11 @@
       <div class="container-rumah">
         <div class="teks-rumah">
           <h1>Makanan</h1>
-          <p>Gudeg terbuat dari nangka muda mentah (Jawa: gori). Perlu waktu berjam- jam untuk membuatnya. Gudeng dimasak dengan gula aren, dan santan rempah-rempah tambahan termasuk bawang putih, bawang merah, kemiri, biji ketumbar, lengkuas, daun salam, dan daun jati, yang memberikan warna coklat kemerahan ke masakan.</p>
+          <p>Lumpia pasti yang teringat adalah Kota Semarang. Ya, Semarang memang terkenal dengan makanan khasnya yaitu lumpia. Kamu bisa menikmati makanan khas Semarang ini di Loenpia Gang Lombok. Loenpia Gang Lombok sendiri merupakan toko lumpia yang dapat dikatakan cukup legendaris. Lumpia yang dijual di Loenpia Gang Lombok ini terdapat dua varian, yaitu lumpia kering dan lumpia basah.</p>
         </div>
         <div class="foto-rumah">
-          <img src="img/makanan.png" alt="" />
-          <h1>Gudeg</h1>
+          <img src="img/lumpia.png" alt="" />
+          <h1>Lumpia</h1>
         </div>
       </div>
 
@@ -130,27 +130,26 @@
       <h1>Tempat Wisata</h1>
       <div class="container-rumah">
         <div class="teks-rumah">
-          <h1>Jl. Malioboro</h1>
-          <p>Jelas saja tempat wisata di Jogja yang satu ini wajib ada di nomor 1. Kamu betul-betul belum ke Jogja namanya kalau enggak mampir atau paling enggak lewat Jalan Malioboro!</p>
-          <p>Kalau kamu liburan ke Jogja dengan kereta, kamu bisa langsung berjalan kaki dari Stasiun Tugu Yogyakarta ke Jalan Malioboro karena lokasinya berseberangan. Apalagi kalau kamu tiba di sore hari. Duh, cocok banget untuk langsung isi perut di area Malioboro!</p>
+          <h1>Lawang Sewu</h1>
+          <p>Lawang Sewu disebut juga Seribu Pintu adalah bangunan perkantoran yang terletak di seberang Tugu Muda, Kota Semarang, Jawa Tengah, Indonesia, yang dibangun sebagai kantor pusat Nederlandsch-Indische Spoorweg Maatschappij (NIS). Bangunan ini berstatus sebagai aset Kereta Api Indonesia (KAI) karena merupakan buah dari perebutan NIS oleh Djawatan Kereta Api Republik Indonesia (DKARI) pada masa Perang Kemerdekaan. Saat ini bangunan tersebut dijadikan sebagai museum dan galeri sejarah perkeretaapian oleh Unit Pusat Pelestarian dan Desain Arsitektur dan KAI Wisata.</p>
         </div>
         <div class="foto-rumah">
-          <img src="img/malioboro.png" alt="" />
+          <img src="img/lawangSewu.png" alt="" />
         </div>
       </div>
       <div class="container-rumah">
         <div class="teks-rumah">
-          <h1>Air Terjun Luweng Sampang</h1>
-          <p>Air Terjun Luweng Sampang merupakan air terjun yang berada di daerah berkapur Kabupaten Gunung Kidul. Mempunyai keunikan berupa tebing yang terkikis karena proses perubahan alam. Warna air pada kolam air terjun ini bisa berubah warna.</p>
+          <h1>Masjid Agung Jawa Tengah</h1>
+          <p>Masjid Agung Jawa Tengah mulai dibangun pada tahun 2002. Pembangunan masjid ini dilakukan di atas tanah wakaf Ki Ageng Panandaran II, Bupati Semarang pertama. Untuk mempermudah proses pembangunannya, Gubernur Jawa Tengah kala itu Mayjend Mardiyanto langsung ikut turun dalam pembangunan masjid ini. Hingga pada akhirnya Masjid Agung Jawa Tengah resmi terbuka untuk umum pada tanggal 14 November 2006 oleh Presiden RI Susilo Bambang Yudoyono.</p>
         </div>
         <div class="foto-rumah">
-          <img src="img/airterjun.png" alt="" />
+          <img src="img/masjidAgung.png" alt="" />
         </div>
       </div>
     </div>
     <div class="container-ulasan">
       <div class="kotak-ulasan">
-        <a href="">Klik Untuk Melihat dan Memberi Ulasan Tentang Kota Ini</a>
+        <a href="review/semarang">Klik Untuk Melihat dan Memberi Ulasan Tentang Kota Ini</a>
         <img src="" alt="lambang chat" />
       </div>
     </div>

@@ -38,8 +38,24 @@ Route::get('/semarang', function () {
     return view('semarang');
 });
 
+Route::get('/jakarta', function () {
+    return view('jakarta');
+});
+
 Route::get('review/jogja', function () {
     return view('review-jogja', [
+        "komentar" => comments::all()
+    ]);
+});
+
+Route::get('review/semarang', function () {
+    return view('review-semarang', [
+        "komentar" => comments::all()
+    ]);
+});
+
+Route::get('review/jakarta', function () {
+    return view('review-jakarta', [
         "komentar" => comments::all()
     ]);
 });
