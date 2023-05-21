@@ -22,9 +22,10 @@
     </div>
     <div class="input-review-container">
       <p>ULASAN ANDA</p>
-      <form class="input-review">
-        <input type="text" placeholder="Ketik ulasan anda di sini" />
-        <button><img src="{{ URL::asset('img/submitReview.png'); }}" alt="" /></button>
+      <form class="input-review" method="post" action="/review/jogja">
+        @csrf
+        <input type="text" placeholder="Ketik ulasan anda di sini" name="comment" id="comment"/>
+        <button type="submit"><img src="{{ URL::asset('img/submitReview.png'); }}" alt="" /></button>
       </form>
     </div>
 

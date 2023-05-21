@@ -19,7 +19,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/login', [LoginController::class, 'index']);
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
 
 
 Route::get('pulau/jawa', function () {
@@ -46,16 +48,16 @@ Route::get('review/jogja', function () {
     return view('review-jogja', [
         "komentar" => comments::all()
     ]);
-});
+})->middleware('auth');
 
 Route::get('review/semarang', function () {
     return view('review-semarang', [
         "komentar" => comments::all()
     ]);
-});
+})->middleware('auth');
 
 Route::get('review/jakarta', function () {
     return view('review-jakarta', [
         "komentar" => comments::all()
     ]);
-});
+})->middleware('auth');

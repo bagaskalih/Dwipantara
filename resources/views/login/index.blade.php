@@ -15,21 +15,21 @@
   <body>
     @include('partials.navbar')
     <div>
-      <form method="post" class="form">
+      <form action="/login" method="post" class="form">
+        @csrf
         <h1>MASUK</h1>
         <hr style="height: 2px; border-width: 0; color: gray; background-color: gray; width: 100px; text-align: center; display: flex" />
-
         <div class="form-group">
           <label for="nama">Nama:</label>
-          <input type="text" class="form-control" name="nama" placeholder="Masukkan nama Anda" />
+          <input type="text" class="form-control" name="name" placeholder="Masukkan nama Anda" autofocus id="name"/>
         </div>
         <div class="form-group">
           <label for="email`">Email:</label>
-          <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Masukkan alamat email Anda" />
+          <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Masukkan alamat email Anda" id="email"/>
         </div>
         <div class="form-group">
           <label for="password">Kata Sandi:</label>
-          <input type="password" class="form-control" name="password" placeholder="Masukkan kata sandi email Anda" />
+          <input type="password" class="form-control" name="password" placeholder="Masukkan kata sandi email Anda" id="password"/>
         </div>
         <button type="submit" class="btn text-light border border-white">KIRIM</button>
 

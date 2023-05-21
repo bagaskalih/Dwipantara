@@ -149,7 +149,11 @@
     </div>
     <div class="container-ulasan">
       <div class="kotak-ulasan">
-        <a href="review/semarang">Klik Untuk Melihat dan Memberi Ulasan Tentang Kota Ini</a>
+        @auth
+        <a href="review/jogja">Klik Untuk Melihat dan Memberi Ulasan Tentang Kota Ini</a>
+        @else
+        <a href="/login">Klik Untuk Melihat dan Memberi Ulasan Tentang Kota Ini</a>
+        @endauth
         <img src="" alt="lambang chat" />
       </div>
     </div>
