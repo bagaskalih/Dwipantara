@@ -22,7 +22,7 @@
       <a href="#">Kontak</a>
       <form action="/logout" method="post">
         @csrf
-        <button type="submit">Logout</button>
+        <button type="submit" class="logout-button">Logout</button>
       </form>
     </div>
   </div>

@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <title>Ulasan Bandung</title>
+    <title>Ulasan Jakarta</title>
   </head>
   <body>
     @include('partials.navbar')
@@ -22,9 +22,10 @@
     </div>
     <div class="input-review-container">
       <p>ULASAN ANDA</p>
-      <form class="input-review">
-        <input type="text" placeholder="Ketik ulasan anda di sini" />
-        <button><img src="{{ URL::asset('img/submitReview.png'); }}" alt="" /></button>
+      <form class="input-review" method="post" action="/review/jakarta">
+        @csrf
+        <input type="text" placeholder="Ketik ulasan anda di sini" name="comment" id="comment"/>
+        <button type="submit"><img src="{{ URL::asset('img/submitReview.png'); }}" alt="" /></button>
       </form>
     </div>
 
@@ -42,6 +43,8 @@
       @endforeach
     </div>
 
+    @auth
+    @else
     <div class="container-penilaian">
       <div class="col-penilaian-kiri">
         <h1>BERI PENILAIAN</h1>
@@ -53,6 +56,8 @@
         <a href="" class="btn text-light border border-white">Masuk</a>
       </div>
     </div>
+
+    @endauth
 
     @include('partials.footer')
 

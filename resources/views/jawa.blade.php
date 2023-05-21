@@ -68,6 +68,9 @@
         <a href="#" class="btn text-light border border-white">LIHAT</a>
       </div>
     </div>
+
+    @auth
+    @else
     <div class="container-penilaian">
       <div class="col-penilaian-kiri">
         <h1>BERI PENILAIAN</h1>
@@ -80,6 +83,6 @@
       </div>
     </div>
     @include('partials.footer')
-
+    @endauth
   </body>
 </html>

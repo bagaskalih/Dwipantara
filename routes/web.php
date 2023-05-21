@@ -1,8 +1,13 @@
 <?php
 
-use App\Models\comments;
+use App\Models\Jogja;
+use App\Models\Jakarta;
+use App\Models\Semarang;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\JogjaController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\JakartaController;
+use App\Http\Controllers\SemarangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,20 +49,24 @@ Route::get('/jakarta', function () {
     return view('jakarta');
 });
 
-Route::get('review/jogja', function () {
-    return view('review-jogja', [
-        "komentar" => comments::all()
-    ]);
-})->middleware('auth');
+Route::resource('/review/jogja', JogjaController::class)->middleware('auth');
+Route::resource('/review/semarang', SemarangController::class)->middleware('auth');
+Route::resource('/review/jakarta', JakartaController::class)->middleware('auth');
 
-Route::get('review/semarang', function () {
-    return view('review-semarang', [
-        "komentar" => comments::all()
-    ]);
-})->middleware('auth');
+// Route::get('review/jogja', function () {
+//     return view('review-jogja', [
+//         "komentar" => Jogja::all()
+//     ]);
+// })->middleware('auth');
 
-Route::get('review/jakarta', function () {
-    return view('review-jakarta', [
-        "komentar" => comments::all()
-    ]);
-})->middleware('auth');
+// Route::get('review/semarang', function () {
+//     return view('review-semarang', [
+//         "komentar" => Semarang::all()
+//     ]);
+// })->middleware('auth');
+
+// Route::get('review/jakarta', function () {
+//     return view('review-jakarta', [
+//         "komentar" => Jakarta::all()
+//     ]);
+// })->middleware('auth');

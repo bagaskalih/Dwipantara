@@ -95,6 +95,8 @@
       </div>
     </div>
 
+    @auth
+    @else
     <div class="container-penilaian">
       <div class="col-penilaian-kiri">
         <h1>BERI PENILAIAN</h1>
@@ -106,6 +108,7 @@
         <a href="login" class="btn text-light border border-white">Masuk</a>
       </div>
     </div>
+    @endauth
     @include('partials.footer')
   </body>
 </html>

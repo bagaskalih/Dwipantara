@@ -248,6 +248,13 @@
     text-align: center;
 }
 
+.kotak-ulasan img {
+    width: 75px;
+    height: 75px;
+
+    margin-top: 30px;
+}
+
 .kotak-ulasan a:hover {
     color: #ffffffb2;
     text-decoration: none;
