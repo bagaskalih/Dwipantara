@@ -6,23 +6,26 @@ body {
     box-sizing: border-box;
 }
 .search-container {
-    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .search {
+    font-family: "poppins" !important;
+
     display: flex;
     align-items: center;
+
     margin-bottom: 30px;
     width: 100%;
     max-width: 1000px;
-    max-height: 30px;
-    background: #d9d9d980;
-    border-radius: 15px;
+    max-height: 55px;
+
+    border-radius: 20px;
     padding: 10px 20px;
-    backdrop-filter: blur(4px) saturate(180%);
+
+    background: #d9d9d980;
 }
 
 .search input {
@@ -31,31 +34,24 @@ body {
     border: 0;
     outline: none;
     padding: 24px 20px;
-    font-size: 20px;
-    color: white;
-    font-family: "poppins";
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: 0.1em;
-    text-align: left;
+    font-size: 30px;
+    color: #00000080;
 }
 
 ::placeholder {
-    color: white;
+    color: #00000080;
 }
 
 .search button img {
-    width: 30px;
+    width: 25px;
 }
 
 .search button {
     border: 0;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(4px) saturate(180%);
+    width: 55px;
+    height: 55px;
+    background: transparent;
     cursor: pointer;
 }
 
@@ -67,9 +63,7 @@ body {
     letter-spacing: 0.1em;
     text-align: left;
     margin-left: 219px;
-}
-.foto-kota {
-    margin-left: 219px;
+    color: #ffffff99;
 }
 
 .kota-wrapper {
@@ -78,6 +72,14 @@ body {
     margin-top: 50px;
     align-items: center;
     color: white;
+
+    > img {
+        margin-bottom: 30px;
+    }
+}
+
+.kota-wrapper img {
+    margin-bottom: 30px;
 }
 
 .judul-kota {
@@ -99,18 +101,16 @@ body {
 }
 
 .btn-lihat {
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: center;
-    border: 2px solid white;
-    height: 59px;
-    width: 297px;
-    margin-bottom: 280px;
-    background: #1d1e2e;
+    text-decoration: none;
     color: white;
-    font-size: 16px;
-    cursor: pointer;
+
+    border: 3px solid #ffffffbf;
     border-radius: 30px;
+    padding: 10px 30px;
+    margin-bottom: 200px;
+}
+
+.btn-lihat:hover {
+    text-decoration: none;
+    color: #ffffffbf;
 }

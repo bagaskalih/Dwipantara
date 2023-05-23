@@ -24,7 +24,7 @@
           <input type="text" class="form-control" name="name" placeholder="Masukkan nama Anda" autofocus id="name"/>
         </div>
         <div class="form-group">
-          <label for="email`">Email:</label>
+          <label for="email">Email:</label>
           <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Masukkan alamat email Anda" id="email"/>
         </div>
         <div class="form-group">

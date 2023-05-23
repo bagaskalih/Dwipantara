@@ -20,9 +20,9 @@
       <div class="container-hero">
         <div class="herobox">
           <div class="search-container">
-            <form class="search">
+            <form class="search" method="GET" action="search">
               <button type="submit"><img src="img/search.png" /></button>
-              <input type="text" name="searchBar" id="searchBar" placeholder="Cari" />
+              <input type="search" name="search" placeholder="Cari" />
             </form>
           </div>
           <div class="hero-heading">

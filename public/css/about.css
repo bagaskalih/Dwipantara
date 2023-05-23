@@ -1,0 +1,62 @@
+body {
+    font-family: "Jacques Francois" !important;
+}
+
+.hero {
+    background: url(../img/heroAbout.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-family: "Zen Antique";
+
+    height: 30vh;
+    width: 100vw;
+}
+
+.hero-latar {
+    background: url(../img/imgAbout.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 93px;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.container-text p {
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+
+    max-width: 78vw;
+    padding: 1em;
+}

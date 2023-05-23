@@ -6,6 +6,7 @@ use App\Models\Semarang;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\JogjaController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\SearchController;
 use App\Http\Controllers\JakartaController;
 use App\Http\Controllers\SemarangController;
 
@@ -23,6 +24,11 @@ use App\Http\Controllers\SemarangController;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/home', function () {
+    return redirect('/');
+});
+
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
@@ -48,6 +54,16 @@ Route::get('/semarang', function () {
 Route::get('/jakarta', function () {
     return view('jakarta');
 });
+
+Route::get('/about-us', function () {
+    return view('about');
+});
+
+Route::get('/contact-us', function () {
+    return view('contact');
+});
+
+Route::get('/search', [SearchController::class, 'search']);
 
 Route::resource('/review/jogja', JogjaController::class)->middleware('auth');
 Route::resource('/review/semarang', SemarangController::class)->middleware('auth');

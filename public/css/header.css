@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    font-family: "Jacques Francois";
 }
 
 .navbar .logo {
@@ -11,7 +12,7 @@
     margin-top: 10px;
     margin-left: 70px;
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffffb2;
 }
 
 .navbar .logo .logo2 {
@@ -19,7 +20,7 @@
     display: flex;
     margin-left: 100px;
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffffb2;
 }
 
 .navbar .menu {
@@ -28,12 +29,17 @@
 }
 
 .navbar .menu a {
-    color: #ffffff;
+    color: #ffffffb2;
     text-align: right;
     font-size: 20px;
     text-decoration: none;
     margin-right: 30px;
     margin-top: 10px;
+}
+
+.navbar .menu a:hover {
+    color: #ffffffb2;
+    text-decoration: underline;
 }
 
 .pulau-dropdown {
@@ -48,7 +54,7 @@
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: #ffffffb2;
     font-size: 20px;
     padding: 14px 16px;
     background-color: inherit;
@@ -88,7 +94,7 @@
 }
 
 .logout-button {
-    color: #ffffff;
+    color: #ffffffb2;
     text-align: right;
     font-size: 20px;
     text-decoration: none;

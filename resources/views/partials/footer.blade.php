@@ -7,9 +7,9 @@
       <div class="footer-col"></div>
       <div class="footer-col-kanan">
         <ul class="list-footer-col-kanan1">
-          <li><a href="#">Pulau</a></li>
-          <li><a href="#">Tentang Kami</a></li>
-          <li><a href="#">Kontak</a></li>
+          <li><a href="{{ url('pulau/jawa')}}">Pulau</a></li>
+          <li><a href="{{ url('about-us')}}">Tentang Kami</a></li>
+          <li><a href="{{ url('contact-us')}}">Kontak</a></li>
         </ul>
       </div>
       <div class="footer-col-kanan">
