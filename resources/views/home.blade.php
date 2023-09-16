@@ -40,7 +40,7 @@
       </div>
     </div>
 
-    <div class="card-group card-asli" id="list-pulau">
+    <div class="card-group" id="list-pulau">
       <div class="card card-kota" style="width: 180px; background: #1e1e2e; border-right: 1px solid #ffffffbf">
         <img src="img/monas.png" class="card-img-top" alt="..." />
         <div class="card-body">

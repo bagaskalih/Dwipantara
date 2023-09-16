@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap" rel="stylesheet" />    
     <link href='https://fonts.googleapis.com/css?family=Zen+Antique' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <title>Kontak</title>
+    <title>Search</title>
   </head>
   
   <body style="background: #242434">
@@ -27,18 +27,26 @@
         <input type="search" name="search" placeholder="Cari" />
       </form>
     </div>
-    <div class="search-header">HASIL :</div>
+    
+    @if (count($kota) == 0)
+      <h1 class="search-result">Tidak ada hasil</h1>
+    @else
+      <div class="search-header">HASIL :</div>
       @foreach ($kota as $k)
-      
-      <div class="kota-wrapper">
-        <img src="../img/{{$k["fotoKota"]}}" alt="foto-kota" />
-        <h1 class="judul-kota">{{$k["namaKota"] }}</h1>
-        <hr style="height: 2px; border-width: 0; color: white !important; background-color: white; width: 100px; text-align: center; display: flex" />
-        <p class="deskripsi-kota">{{ $k["descKota"] }}</p>
-        <a type="button" class="btn-lihat" href="{{$k["linkKota"];}}">LIHAT LEBIH LANJUT</a>
+        
+        <div class="kota-wrapper">
+          <img src="../img/{{$k["fotoKota"]}}" alt="foto-kota" />
+          <h1 class="judul-kota">{{$k["namaKota"] }}</h1>
+          <hr style="height: 2px; border-width: 0; color: white !important; background-color: white; width: 100px; text-align: center; display: flex" />
+          <p class="deskripsi-kota">{{ $k["descKota"] }}</p>
+          <a type="button" class="btn-lihat" href="{{$k["linkKota"];}}">LIHAT LEBIH LANJUT</a>
+          <hr style="height: 2px; border-width: 0; color: white !important; background-color: white; width: 100vw; text-align: center; display: flex" />
+        </div>
       @endforeach
-      
-    </div>
+    
+    @endif
+    
+    
     
     @include('partials.footer')
 

@@ -66,6 +66,15 @@ body {
     color: #ffffff99;
 }
 
+.search-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff99;
+
+    margin-bottom: 300px;
+}
+
 .kota-wrapper {
     display: flex;
     flex-direction: column;
@@ -73,9 +82,7 @@ body {
     align-items: center;
     color: white;
 
-    > img {
-        margin-bottom: 30px;
-    }
+    margin-bottom: 100px;
 }
 
 .kota-wrapper img {
@@ -107,7 +114,8 @@ body {
     border: 3px solid #ffffffbf;
     border-radius: 30px;
     padding: 10px 30px;
-    margin-bottom: 200px;
+
+    margin-bottom: 50px;
 }
 
 .btn-lihat:hover {

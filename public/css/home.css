@@ -109,6 +109,7 @@ body {
 
 .card-kota {
     display: flex;
+    justify-content: center !important;
     flex-direction: column;
     align-items: center;
     border-radius: 0px !important;
@@ -148,7 +149,6 @@ body {
     border-radius: 10px;
     padding: 10px;
     width: 800px;
-    margin-left: 29%;
 }
 
 .recc h1 {
@@ -162,6 +162,8 @@ body {
 }
 
 .box-recc {
+    display: flex;
+    justify-content: center;
     background: #3a2a49;
     margin: 0px;
 }
